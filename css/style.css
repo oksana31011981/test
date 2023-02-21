@@ -221,30 +221,58 @@ em {
 }
 /*students*/
 
+.student-photo{
+    width: 100%;
+    max-width: 200px;
+
+    height: 270px; 
+
+}
+
 .students{
-    max-width: 1200px;
+    max-width: 1300px;
+}
+
+.about{
+    max-width: 1024px;
+}
+
+.class-list{
+    padding: 0 50px;
+}
+
+.students-list{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin-top: 20px;
-    
-}
-
-
-
-
-.student{
-    padding-left: 50px;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    gap: 20px 50px;
 
 }
 
-
-
-.student-name{
+.student-item{
     display: block;
-    text-align: center;
+    width: 200px;
+
     
+
 }
+
+.student-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+}
+    
+    
 
 .footer{
     display: flex;
@@ -266,12 +294,19 @@ em {
     font-size: 20px;
     color: rgba(255,255,255,0.5);
 }
+.innop-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(255,255,255,0.5);
 
+}
 
 
 
 /*About*/
-.tex-about{
+.text-about{
     font-weight: 400;
     font-size: 25px;
     line-height: 29px;
@@ -313,5 +348,88 @@ em {
         min-height: 80px;
     }
 }
+
+   
+.new {
+    position: relative;
+}
+   
+
+.new::after {
+    content: 'Новичок';
+    position:absolute;
+    top:0;
+    right: 0;
+    transform: translate(15px,-50%);
+    display: inline-block;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #3AA828;
+    border-radius: 20px;
+    padding: 2px 5px;
+
+   }
+
+
+
+
+   .main-page {
+    font-weight: 4000;
+    font-size: 30px;
+    color:#000000;
+}
+h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;  
+}
+.sergia {
+    width: 100%;
+    max-width: 200px;
+    height: auto; 
+}
+
+.son {
+    width: 100%;
+    max-width: 200px;
+    height: auto; 
+
+}
+.family{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #EA5D21;  
+}
+
+.cat{
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.mama {
+    width: 100%;
+    max-width: 200px;
+    height: auto; 
+}
+
+
+
+
+
+
+
+
+   
+
+
 
 
