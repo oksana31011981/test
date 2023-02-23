@@ -1,3 +1,12 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+
+
+
 .page {
     display: flex;
     flex-direction: column;
@@ -208,6 +217,21 @@ h2{
     font-size: 25px;  
 }
 
+.emblema{
+    position:absolute ;
+    display: block;
+    width: 129px;
+    height: 90px;
+    font-family: 'Lobster';
+    font-style: normal;
+    font-size: 36px;
+    left: 708px;
+    bottom: 396;
+    color:#646464
+}
+
+
+
 
 .student-tex{
  max-width: 634px; 
@@ -219,6 +243,11 @@ font-size: 18px;
 em {
     color:rgba(207,85,16,1) ;
 }
+
+
+
+
+
 /*students*/
 
 .student-photo{
@@ -387,7 +416,8 @@ h2{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;  
+    font-size: 25px; 
+    
 }
 .sergia {
     width: 100%;
