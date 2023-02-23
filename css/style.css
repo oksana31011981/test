@@ -217,17 +217,22 @@ h2{
     font-size: 25px;  
 }
 
+.intro-text {
+    position: relative;
+}
+
 .emblema{
     position:absolute ;
     display: block;
     width: 129px;
     height: 90px;
+    margin: 0;
     font-family: 'Lobster';
     font-style: normal;
     font-size: 36px;
-    left: 708px;
-    bottom: 396;
-    color:#646464
+    top: -10px;
+    right: 0;
+     color:#646464
 }
 
 
