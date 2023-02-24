@@ -188,6 +188,11 @@
 
 }
 
+
+.main-index {
+    max-width: 911px;
+}
+
 .main{
   width: 100%;
   max-width: 1300px;
@@ -195,6 +200,10 @@
   flex-grow: 1;  
   
 }
+
+
+
+
 
 .main-heading{
    font-family: 'Roboto';
@@ -217,7 +226,7 @@ h2{
     font-size: 25px;  
 }
 
-.intro-text {
+.intro-tex {
     position: relative;
 }
 
@@ -347,6 +356,14 @@ em {
     color: #000000;
 }
 
+.video{
+    width: 100%;
+    max-width: 820px;
+    height: auto;
+    border: none;
+    aspect-ratio: 16/9;
+}
+
 
 
 /*Contacts*/
@@ -357,16 +374,21 @@ em {
     color:#000000;
 }
 
+
+.map {
+width: 100%;
+height: 370px;
+
+}
+
 .phone-number {
     margin-top: 16px;
     text-decoration: underline;
 }
 
-.abou-photo {
-    max-width: 1200px;
-    width: 100%;
 
-}
+
+
 
 
 
