@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <Link rel="preconnect" href="http://fonts.googleapis.com">
-    <link rel="preconnect" href="http://fontsgstatic.com" crossorigin>
-    <link href="http://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&displau=swap" rel="stylesheet">
-    <link href="http://fonts.googleapis.com/css2?family=Lobster:wght@400;500;700&displau=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="http://fontsgstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap" rel="stylesheet">    
     <link rel="stylesheet" type="text/css" href ="../css/style.css">
-    <script defer src="../js/popup.js"></script>
-    <title>Сайт группы</title>
-</head>
+    <script src="..js/popup.js"></script>
+   <title>Сайт группы</title>
+   
+   </head>
 <body class="page">
  <header class="header">
-     <img class="site-photo" src="../img/logo.svg">
+     <img class="site-photo" src="../img/logo.svg" alt>
      <ul class="site-menu">
 <li><a class="menu-link" href="../index.html">Главная</a></li>
 <li><a class="menu-link" href="./students.html">Студенты</a></li>
@@ -22,20 +22,36 @@
 <li><a class="menu-link" href="#">Контакты</a></li>
 </ul>
 <a class="login-button" href="Login.html">Войти</a>
+<div class="login-popup">
+   <h2 class="login-heading">Войти на сайт</h2>
+<form class="login-form">
+       <input class="login-input" name ="Login" type="text" placeholder="Логин" required>
+       <input class="login-password" name="password" type="text" placeholder="Пароль" required>
+       <button class="popup-button" type="submit">Войти</button>
+</form>
+</div>
  </header>
- <main class="main">
-    <h1 class="main-heading">Как нас найти 🗺️️</h1>
+ 
+    <h1 class="main-kurs wrapper">Как нас найти 🗺️️</h1>
 
-    <iframe class="map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A6382a790a5b73d6839e5bca214c4c78a98cf0ded221f837bd47c993f4376d6e6&amp;source=constructor" width="100%" height="510" frameborder="0"></iframe>"
-    <p class="main-text">Наши контакты</p>
+    <iframe class="map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A6382a790a5b73d6839e5bca214c4c78a98cf0ded221f837bd47c993f4376d6e6&amp;source=constructor"  height="510" frameborder="0"></iframe>
+    <div class="wrapper">
+    <p class="cont">Наши контакты</p>
+
     <p class="text-info">Адрес: г. Санкт-Петербург, Дворцовая пл., 2, 190000</p>
+
     <p class="phone-number">Тел: +7 (812) 555-55-55</p>
+    </div>
  </main>
  <footer class="footer">
     <p class="copyriqht">
     2022 &copy;<a href="#" class="innop-link">учебный центр</a>
  </p>
  </footer>
+
+ <script src="../js/popup.js"></script>
+ 
+ 
 </body>
 </html>
     
