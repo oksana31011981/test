@@ -39,7 +39,7 @@
     padding:0 15px;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    
     
     
 }
@@ -376,13 +376,17 @@ em {
 .text-about{
     
     width: 100%;
-    max-width: 288px;
+    max-width: 1300px;
     height: 29px;
     margin: 0 auto;
     flex-grow: 1;
+    
     font-weight: 400;
     font-size: 25px;
     line-height: 29px;
+    justify-content: space-between;
+    align-items: center;
+
     color: #000000;
 }
 
@@ -391,33 +395,30 @@ em {
     max-width: 1300px;
     margin: 0  auto;
     flex-grow: 1;
-    padding: 0  250px;
+    
     justify-content: space-between;
     align-items: center;
+
   }
+  
 
 
 
 
 
-
-
-
-
-
-
-.video{
+     .video{
     width:820px ;
-   margin: 0 auto;
+    margin: 0 auto;
     flex-grow: 1;
     padding: 0  15;
     justify-content: space-between;
     align-items: center;
-  
     height: auto;
     border: none;
     aspect-ratio: 16/9;
-}
+
+     }
+
 
 
 
