@@ -410,9 +410,9 @@ em {
 .cont{
    
 
-font-family: 'Roboto';
-font-size: 18px;
-  
+    font-family: 'Roboto';
+    font-size: 18px;
+   
    
 
 }
@@ -441,9 +441,9 @@ border: none;
 
 .phone-number {
    
-     font-family: 'Roboto';
+    font-family: 'Roboto';
     font-size: 18px;
-    text-decoration: underline;
+   
 }
 
 
